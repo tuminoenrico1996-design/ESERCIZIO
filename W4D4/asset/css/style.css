@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  text-align: center;
+  color: #222;
+}
+
+header {
+  background-color: #2563eb;
+  color: white;
+  padding: 25px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.prenotazione,
+.catalogo,
+.statistiche {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+label {
+  display: block;
+  margin: 15px 0 8px;
+  font-weight: bold;
+}
+
+select,
+input {
+  width: 100%;
+  max-width: 350px;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 30px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+#messaggio {
+  font-weight: bold;
+}
+
+.successo {
+  color: green;
+}
+
+.errore {
+  color: red;
+}
+
+#totale {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tabella-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+th {
+  background-color: #2563eb;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+.sold-out {
+  color: red;
+  font-weight: bold;
+}
+
+#bigliettiTotali {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}

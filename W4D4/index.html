@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CinemaBooking - Prenotazione Biglietti</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎬 CinemaBooking</h1>
+      <p>Prenota i tuoi biglietti per il cinema!</p>
+    </header>
+
+    <main>
+      <section class="prenotazione">
+        <h2>Prenota il tuo film</h2>
+
+        <label for="film">Scegli un film:</label>
+        <select id="film">
+          <option value="">-- Seleziona un film --</option>
+        </select>
+
+        <label for="quantita">Numero di biglietti:</label>
+        <input type="number" id="quantita" min="1" value="1" />
+
+        <button id="prenota">Prenota</button>
+
+        <p id="messaggio" aria-live="polite"></p>
+        <p id="totale"></p>
+      </section>
+
+      <section class="catalogo">
+        <h2>Film disponibili</h2>
+
+        <div class="tabella-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Film</th>
+                <th>Genere</th>
+                <th>Prezzo</th>
+                <th>Posti disponibili</th>
+              </tr>
+            </thead>
+
+            <tbody id="tabellaFilm"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="statistiche">
+        <h2>Biglietti prenotati</h2>
+        <p id="bigliettiTotali">0</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>CinemaBooking - Esercizio EPICODE</p>
+    </footer>
+
+    <script src="./asset/js/script.js"></script>
+  </body>
+</html>
